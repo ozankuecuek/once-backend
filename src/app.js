@@ -26,7 +26,7 @@ app.use(express.json());
 
 // Add this new route for the root path
 app.get('/', (req, res) => {
-  res.json({ message: "Welcome to the Once Backend API" });
+  res.json({ message: "Welcome to the Once-id Backend API" });
 });
 
 app.use('/api/auth', authRoutes);
