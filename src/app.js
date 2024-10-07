@@ -8,7 +8,7 @@ const authRoutes = require('./routes/authRoutes');
 const app = express();
 const port = process.env.PORT || 5000;
 
-const corsOrigins = process.env.CORS_ORIGIN ? process.env.CORS_ORIGIN.split(',') : ['http://localhost:3000', 'https://once-frontend.vercel.app'];
+const corsOrigins = process.env.CORS_ORIGIN ? process.env.CORS_ORIGIN.split(',') : ['http://localhost:3000', 'https://once-frontend.vercel.app', 'https://once-frontend-git-development-ozans-projects-6669b5a2.vercel.app'];
 
 app.use(cors({
   origin: (origin, callback) => {
